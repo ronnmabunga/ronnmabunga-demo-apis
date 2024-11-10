@@ -7,10 +7,13 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "setup": "npm install && npm install --prefix ./blogging-website-app-api-demo && npm install --prefix ./expressjs-fs-monolithic-user-api-demo && npm install --prefix ./expressjs-mongodb-mrc-ecommerce-api-demo",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "devDependencies": {},
     "description": ""
 }
