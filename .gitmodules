@@ -1,0 +1,3 @@
+[submodule "blogging-website-app-api-demo"]
+	path = blogging-website-app-api-demo
+	url = https://github.com/ronnmabunga/blogging-website-app-api-demo
