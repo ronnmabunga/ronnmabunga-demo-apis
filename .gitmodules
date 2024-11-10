@@ -4,3 +4,6 @@
 [submodule "expressjs-fs-monolithic-user-api-demo"]
 	path = expressjs-fs-monolithic-user-api-demo
 	url = https://github.com/ronnmabunga/expressjs-fs-monolithic-user-api-demo
+[submodule "expressjs-mongodb-mrc-ecommerce-api-demo"]
+	path = expressjs-mongodb-mrc-ecommerce-api-demo
+	url = https://github.com/ronnmabunga/expressjs-mongodb-mrc-ecommerce-api-demo
