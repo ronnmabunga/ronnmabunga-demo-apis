@@ -1,6 +1,6 @@
-[submodule "blogging-website-app-api-demo"]
-	path = blogging-website-app-api-demo
-	url = https://github.com/ronnmabunga/blogging-website-app-api-demo
+[submodule "expressjs-mongodb-mrc-blogging-api-demo"]
+	path = expressjs-mongodb-mrc-blogging-api-demo
+	url = https://github.com/ronnmabunga/expressjs-mongodb-mrc-blogging-api-demo
 [submodule "expressjs-fs-monolithic-user-api-demo"]
 	path = expressjs-fs-monolithic-user-api-demo
 	url = https://github.com/ronnmabunga/expressjs-fs-monolithic-user-api-demo

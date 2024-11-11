@@ -7,7 +7,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "setup": "npm install && npm install --prefix ./blogging-website-app-api-demo && npm install --prefix ./expressjs-fs-monolithic-user-api-demo && npm install --prefix ./expressjs-mongodb-mrc-ecommerce-api-demo",
+        "setup": "npm install && npm install --prefix ./expressjs-mongodb-mrc-blogging-api-demo && npm install --prefix ./expressjs-fs-monolithic-user-api-demo && npm install --prefix ./expressjs-mongodb-mrc-ecommerce-api-demo",
         "start": "node index.js",
         "dev": "nodemon index.js"
     },

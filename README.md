@@ -8,7 +8,7 @@ This repository aggregates three separate Express.js applications, each of which
 
 -   **Main Application:** The main app located in the root directory (index.js) serves as a central entry point, routing requests to each sub-app.
 -   **Sub-Applications:**
-    -   **Blogging Website API:** (/blogging-website-app-api-demo) – serves APIs related to a blogging website.
+    -   **Blogging Website API:** (/expressjs-mongodb-mrc-blogging-api-demo) – serves APIs related to a blogging website.
     -   **User Management API:** (/expressjs-fs-monolithic-user-api-demo) – provides endpoints for user management functions.
     -   **E-commerce API:** (/expressjs-mongodb-mrc-ecommerce-api-demo) – handles e-commerce-related endpoints, such as products, orders, and user profiles.
 
