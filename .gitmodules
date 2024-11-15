@@ -7,3 +7,6 @@
 [submodule "expressjs-mongodb-mrc-ecommerce-api-demo"]
 	path = expressjs-mongodb-mrc-ecommerce-api-demo
 	url = https://github.com/ronnmabunga/expressjs-mongodb-mrc-ecommerce-api-demo
+[submodule "microservices-docker-django-fastapi-express-api-demo"]
+	path = microservices-docker-django-fastapi-express-api-demo
+	url = https://github.com/ronnmabunga/microservices-docker-django-fastapi-express-api-demo.git

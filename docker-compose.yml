@@ -1,6 +1,36 @@
 version: "3.8"
 
 services:
+    express:
+        build:
+            context: ./microservices-docker-django-fastapi-express-api-demo/express-user-service
+            dockerfile: ./Dockerfile
+        ports:
+            - "8003:8003"
+        networks:
+            - app-network
+
+    fastapi:
+        build:
+            context: ./microservices-docker-django-fastapi-express-api-demo/fastapi-task-service
+            dockerfile: ./Dockerfile
+        ports:
+            - "8002:8002"
+        networks:
+            - app-network
+            
+    django:
+        build:
+            context: ./microservices-docker-django-fastapi-express-api-demo/django-main
+            dockerfile: ./Dockerfile
+        ports:
+            - "8001:8001"
+        depends_on:
+            - express
+            - fastapi
+        networks:
+            - app-network
+
     main:
         build:
             context: ./
